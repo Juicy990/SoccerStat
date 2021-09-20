@@ -1,0 +1,45 @@
+.calendarSearch {
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.form-text {
+  color: blue;
+}
+
+
+.startForm {
+  padding: 0;
+  margin-left: 5px;
+
+}
+
+.endForm {
+  padding: 0;
+  margin-left: 5px;
+}
+
+::-webkit-datetime-edit-month-field {
+  color: blue;
+}
+
+::-webkit-datetime-edit-day-field {
+  color: blue;
+}
+
+::-webkit-datetime-edit-year-field {
+  color: blue;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .endForm {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .startForm {
+    margin-left: 18px;
+  }
+
+}

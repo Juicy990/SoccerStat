@@ -1,0 +1,18 @@
+table {
+    margin: 30px auto;
+}
+
+.not-found {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    table thead tbody th tr td {
+        display: block;
+    }
+
+}

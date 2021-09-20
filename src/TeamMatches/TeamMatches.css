@@ -1,7 +1,15 @@
+table {
+    margin: 30px auto;
+}
+
 .not-found {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
 
+}
+
+.matches-title {
+    text-align: center;
 }

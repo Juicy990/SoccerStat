@@ -1,4 +1,14 @@
+.navbar {
+  margin-right: 0;
+}
 
 .brand {
-    color: white;
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar {
+    margin-right: 0;
+  }
+
 }

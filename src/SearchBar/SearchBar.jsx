@@ -1,20 +1,17 @@
-import React from 'react';
-import './SearchBar.css';
+import React from "react";
 
-const SearchBar = ({onChange, value}) => {
+const SearchBar = ({ onChange, value }) => {
+  return (
+    <div className="search-panel">
+      <input
+        className="input-form form-control"
+        type="text"
+        placeholder="Поиск"
+        onChange={(e) => onChange(e.target.value)}
+        value={value}
+      />
+    </div>
+  );
+};
 
-    
-    return (
-        <div className="search-panel">
-            <input 
-                className="form-control search-input"
-                type="text" 
-                placeholder="Поиск"
-                value={value}
-                onChange={(e) => onChange(e.target.value)}
-            />   
-        </div>
-    )
-}
-
-export default SearchBar
+export default SearchBar;

@@ -1,0 +1,51 @@
+table {
+    margin: 30px auto;
+}
+
+.not-found {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.team-logo {
+    width: 100px;
+    height: auto;
+}
+
+.right-side {
+    margin-top: 40px;
+}
+
+.left-side {
+    margin-top: 20px;
+}
+
+.team-info {
+    font-size: 18px;
+}
+
+.title-team {
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+
+.team-links {
+    margin-top: 10px;
+}
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .col-lg-6 {
+        text-align: center;
+    }
+
+    .title-team {
+        text-align: center;
+    }
+    .team-links {
+        list-style-type: none;
+    }
+}
